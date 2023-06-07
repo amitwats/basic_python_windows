@@ -1,10 +1,14 @@
+'''
+python3 -m venv venv
+venv\Scripts\activate
+deactivate
 
-def main():
-    print("Basic Python")
-
-
-
-
+venv\Scripts\python main.py
+venv\Scripts\python -m pip install --upgrade pip
+venv\Scripts\python -m pip install -r requirements.txt
+'''
 
 if __name__ == '__main__':
-    main()
+    print("Here")
+
+
